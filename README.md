@@ -1,6 +1,7 @@
 # whatsapp_group_parser
-Just a fun side project for whatsapp group admins who are tired of inactive members taking valuable slot in the miniscule 256 member limit implemented by WhatsApp. Dumps every information you need to see who're most and least active users in the group.
-### Only tested on Android.
+Just a fun little side project for whatsapp group admins who are tired of inactive members taking valuable slot in the miniscule 256 member limit implemented by WhatsApp. Dumps every information you need to see who're most and least active users in the group.
+### Only tested on Android, with chat exported from WhatsApp 2.19.17.
+### Not a click to go tool, highly unstable, will need some manual tweaking according to your chat export. See sample files attached for the right format for this to work without any tweaking.
 
 ## Requirements:
 * WhatsApp Chat Export in .txt format (Group --> Hamburger Menu --> More --> Export Chat)
