@@ -1,12 +1,14 @@
+# -*- coding: utf-8 -*-
+
 from collections import Counter
 import re
 
 #Some Global Variables
 keywords = ['added', 'removed', 'changed', 'left', 'joined', 'group']
-nums = {'Contact Name': 'Contact Number', 'Contact Name2': 'Contact Number2' } #According to what you've saved in your contact list, add all the contacts in this dictionary
+nums = {'r0otki7': '+23 48593 029321'} #According to what you've saved in your contact list, add all the contacts in this dictionary
 
 def main():
-	file_ops('<filename>.txt', '(\d\d)/01/19')	#Replace <filename> with the whatsapp chat export filename, and a particular date to get messages from that date(regex supported).
+	file_ops('sample_chat.txt', '(\d\d)/02/19')	#Replace sample_chat.txt with the whatsapp chat export filename, and a particular date to get messages from that date(regex supported).
 	dump('total_count.txt', number_engine('replaced_chat.txt'))
 	dump('this_month_count.txt', number_engine('month.txt'))
 	one_count('total_count.txt')
