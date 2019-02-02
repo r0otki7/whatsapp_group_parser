@@ -12,3 +12,5 @@ Just a fun little side project for whatsapp group admins who are tired of inacti
 * Tells all the active users, inactive users, or those who have posted just one message since they joined the group
 * Dumps the messages posted by users with 1 message count
 * Feature to dump the message count since any date. (Configurable in the script)
+
+#### Note: Numbers in sample files were generated randomly, it could be possible for these numbers to be valid for someone.
